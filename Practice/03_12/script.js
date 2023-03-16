@@ -6,3 +6,8 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+import Computer from "./Computer.js";
+
+const myComputer = new Computer("i5 7400", 8, null, 240, "ssd");
+
+console.log("My computer:", myComputer);
